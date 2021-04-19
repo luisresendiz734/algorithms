@@ -15,14 +15,14 @@ A basic queue has the following operations
 
 ### Basics
 
-- **Enqueue (push)**: add a new element to the end of the queue.
-- **Dequeue (pop)**: remove the element from the front of the queue and return it.
+- **Enqueue (push)**: add a new element to the queue end (increase the queue size by 1).
+- **Dequeue (pop)**: remove the element from the queue front (decrease the queue size by 1).
 
 ### Aditional & useful
 
 - **Front**: return the value of the front element if exist.
 - **Back**: return the value of the back element if exist.
-- **Size**: return the length of the queue, in other words number of elements in the queue.
+- **Size**: return the length of the queue, in other words, the number of elements in it.
 
 ## Implementation
 

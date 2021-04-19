@@ -1,10 +1,10 @@
-import { GetStaticPaths, GetStaticProps } from "next"
-import Head from "next/head"
-import Link from "next/link"
-import React from "react"
-import { formatDistanceToNow } from "date-fns"
-import { getPostSlugs, getPost } from "../utils/api"
-import "prism-themes/themes/prism-nord.css"
+import { GetStaticPaths, GetStaticProps } from "next";
+import Head from "next/head";
+import Link from "next/link";
+import React from "react";
+import { formatDistanceToNow } from "date-fns";
+import { getPostSlugs, getPost } from "../utils/api";
+import "prism-themes/themes/prism-nord.css";
 
 export const getStaticPaths: GetStaticPaths = async () => {
 
@@ -67,7 +67,7 @@ const Post: React.FC<{ post: string }> = ({ post }) => {
                 <article dangerouslySetInnerHTML={{ __html: html }} />
             </main>
             <footer>
-                <p>Competitive programming blog. &copy; 2021 <a href="https://github.com/luisrdevy">Luisrdevy</a></p>
+                <p>🐼 algorithms. &copy; 2021 <a href="https://github.com/luisrdevy">Luisrdevy</a></p>
             </footer>
         </React.Fragment>
     )

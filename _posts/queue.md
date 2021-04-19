@@ -10,8 +10,10 @@ A queue is an abstract data type that maintains the order in which elements were
 
 ![Queue data type](./images/queue001.png)
 
-## Basic operations
-A basic queue has the following operations:
+## Operations
+A basic queue has the following operations
+
+### Basics
 
 - **Enqueue (push)**: add a new element to the end of the queue.
 - **Dequeue (pop)**: remove the element from the front of the queue and return it.

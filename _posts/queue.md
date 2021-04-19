@@ -26,7 +26,7 @@ A basic queue has the following operations
 
 ## Implementation
 
-### Node class
+### Node structure
 ```cpp
 template <typename T>
 using pointer = T*;

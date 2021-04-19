@@ -48,7 +48,7 @@ const Post: React.FC<{ post: string }> = ({ post }) => {
     return (
         <React.Fragment>
             <Head>
-                <title>{title}</title>
+                <title>panda algorithms | {title}</title>
                 <meta name="description" content={description} />
             </Head>
             <header>
@@ -67,7 +67,7 @@ const Post: React.FC<{ post: string }> = ({ post }) => {
                 <article dangerouslySetInnerHTML={{ __html: html }} />
             </main>
             <footer>
-                <p>🐼 algorithms. &copy; 2021 <a href="https://github.com/luisrdevy">Luisrdevy</a></p>
+                <p>🐼 algorithms &copy; 2021 <a href="https://github.com/luisrdevy">Luisrdevy</a></p>
             </footer>
         </React.Fragment>
     )

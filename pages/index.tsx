@@ -15,7 +15,7 @@ const Home: React.FC<{ paths: string }> = ({ paths }) => {
     return (
         <React.Fragment>
             <Head>
-                <title>🐼 algorithms</title>
+                <title>Panda algorithms</title>
             </Head>
             <header>
                 <h1 style={{ textAlign: "center", marginBottom: "-2rem" }}>🐼</h1>

@@ -69,6 +69,7 @@ auto pop() -> void {
 	auto curr_front = _front;
 	_front = _front->next;
 	delete curr_front;
+	if(_front == nullptr) _back = nullptr;
 	-- _size;
 }
 ```
